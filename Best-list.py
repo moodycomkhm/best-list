@@ -33,7 +33,7 @@ str(father)
 last = (input ('last name '))
 str(last)
 born_date= (input ('born date yyyy '))
-if born_date != j and num != k :
+if born_date != j and born_date != k :
     int(born_date)
 num = (input ('Enter number phone ((optional)) '))
 
