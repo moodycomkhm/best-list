@@ -24,6 +24,8 @@ print(" ")
 print (" ")
 print(" ")
 print("\x1b[35m")
+j= ""
+k=" "
 name=(input('first name '))
 str(name)
 father= (input ('father name ((optional)) '))
@@ -31,9 +33,13 @@ str(father)
 last = (input ('last name '))
 str(last)
 born_date= (input ('born date yyyy '))
-int(born_date)
+if born_date != j and num != k :
+    int(born_date)
 num = (input ('Enter number phone ((optional)) '))
-int(num)
+
+if num != j and num != k :
+    int(num)
+
 
 
 list=open(name_list,'a')
@@ -113,8 +119,7 @@ list.write(n+name.title()+last.lower())
 
 
 #())()()()()()()!)!)!))))))
-j = ""
-k = " "
+
 if father != j and father != k :
 	
 
